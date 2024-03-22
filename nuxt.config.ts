@@ -1,9 +1,9 @@
 const isProduction = process.env.NODE_ENV === 'production'
-const app = 'Jens van Hellemondt | Passionate and professional software engineer'
+const app = 'van Hellemondt | Home'
 const title = app
 const url = isProduction ? 'https://www.van-hellemondt.nl' : 'http://localhost:3000'
 const image = `${url}/assets/images/ic-192x192.png`
-const description = 'Resume Jens van Hellemondt | A results-driven development leader with 8+ years of application development'
+const description = 'van Hellemondt | Family website'
 const primaryColor = '#ff4200'
 
 export default defineNuxtConfig({
