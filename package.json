@@ -1,10 +1,10 @@
 {
-  "name": "van-hellemondt.nl",
+  "name": "vanhellemondt.net",
   "version": "1.0.0",
   "description": "Home of van Hellemondt",
   "repository": {
     "type": "git",
-    "url": "git://github.com/van-hellemondt-nl"
+    "url": "git://github.com/vanhellemondt-net"
   },
   "type": "module",
   "author": "@jvhellemondt",

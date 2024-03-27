@@ -8,7 +8,7 @@
         Nothing here, yet..
       </h1>
       <p class="text-lg text-gray-600 mb-8">
-        Welcome to van-hellemondt.nl. Unfortunately, there is nothing here yet.
+        Welcome to vanhellemondt.net. Unfortunately, there is nothing here yet.
       </p>
     </div>
   </main>

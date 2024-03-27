@@ -1,5 +1,5 @@
 {
-    "name": "van-hellemondt.nl",
+    "name": "vanhellemondt.net",
     "short_name": "vh",
     "icons": [
         {
@@ -50,6 +50,6 @@
     ],
     "theme_color": "#ff8a4f",
     "background_color": "#1c1616",
-    "start_url": "https://www.van-hellemondt.nl",
+    "start_url": "https://www.vanhellemondt.net",
     "display": "standalone"
 }

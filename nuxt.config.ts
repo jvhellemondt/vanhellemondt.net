@@ -1,7 +1,7 @@
 const isProduction = process.env.NODE_ENV === 'production'
 const app = 'van Hellemondt | Home'
 const title = app
-const url = isProduction ? 'https://www.van-hellemondt.nl' : 'http://localhost:3000'
+const url = isProduction ? 'https://www.vanhellemondt.net' : 'http://localhost:3000'
 const image = `${url}/assets/images/ic-192x192.png`
 const description = 'van Hellemondt | Family website'
 const primaryColor = '#ff4200'
