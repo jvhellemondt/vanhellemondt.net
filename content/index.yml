@@ -1,0 +1,138 @@
+seo:
+  title: Jens van Hellemondt | Software Engineer & Software Architect
+  description: Software architect specializing in event-driven architecture, CQRS, DDD, and cloud-native solutions. Building systems that evolve without entropy at the largest energy retailer in the Netherlands. AWS Cloud practitioner with a strong cost-efficiency focus.
+title: Software Engineer & Software Architect
+description: 'Building systems that evolve without entropy | Event-Driven Architecture | Business Workflow Development | AWS Cloud practitioner'
+hero:
+  links:
+    - label: Explore My Work
+      icon: i-lucide-arrow-right
+      trailing: true
+      color: primary
+      to: '#projects'
+      size: xl
+    - label: Connect on LinkedIn
+      icon: i-simple-icons-linkedin
+      size: xl
+      color: neutral
+      variant: outline
+      to: 'https://www.linkedin.com/in/jvhellemondt/'
+      target: _blank
+section:
+  title: 'Building Software That [Evolves Without Entropy]{.text-primary}'
+  description: 'I design and build software systems that continue to evolve and improve without drifting into entropy, collapsing under complexity, or slowing to a crawl. Through event-driven architecture, domain-driven design, and clean architectural principles, I create systems that remain flexible, robust, maintainable, testable, and scalable as your business grows.'
+  images:
+    mobile: '/images/Abstract Cube Blue Purple.avif'
+    desktop: '/images/Big Data Structure Concept.avif'
+  features:
+    - title: Event-Driven & Event-Centric Architecture
+      description: Leveraging event-driven architecture, CQRS, and event sourcing to build systems that are naturally decoupled, scalable, and maintainable. Events become the source of truth, enabling systems to evolve independently while maintaining consistency.
+      class: border-l border-primary pl-4
+    - title: Business-Driven, Not Data-Driven
+      description: Every architectural decision serves a clear business purpose. While data is readily available for analytics and insights, business objectives drive the architecture. Technology serves the business, not the other way around.
+      class: border-l border-default pt-4 pl-4
+    - title: Clean Architecture & Hexagonal Design
+      description: Implementing clean architecture, hexagonal architecture, and thin application layers to create systems with clear boundaries. This approach ensures that business logic remains independent of infrastructure, making systems testable, maintainable, and adaptable.
+      class: border-l border-default pt-4 pl-4
+skills:
+  title: Architectural [Techniques & Practices]{.text-primary}
+  description: 'I leverage a comprehensive set of techniques and concepts to build flexible, robust, maintainable, testable, and scalable web applications. Each practice serves a specific purpose in creating systems that evolve gracefully.'
+  features:
+    - title: Event-Driven Architecture
+      description: Event-driven architecture, CQRS (Command Query Responsibility Segregation), Event Sourcing, and event-centric design patterns. Building systems where events are first-class citizens, enabling natural decoupling and scalability.
+      icon: i-lucide-zap
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Domain-Driven Design
+      description: Domain-Driven Design (DDD) with bounded contexts, aggregates, and ubiquitous language. Aligning software architecture with business domains to create systems that reflect real-world complexity.
+      icon: i-lucide-layout-dashboard
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Clean & Hexagonal Architecture
+      description: Clean Architecture, Hexagonal Architecture (Ports & Adapters), and thin application layers. Creating clear boundaries between business logic and infrastructure, ensuring testability and maintainability.
+      icon: i-lucide-boxes
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: SOLID Principles & Design
+      description: SOLID principles, design patterns, and architectural patterns. Writing code that is maintainable, extensible, and follows best practices for long-term success.
+      icon: i-lucide-shapes
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Test & Behavior-Driven Development
+      description: Test-Driven Development (TDD) and Behavior-Driven Development (BDD). Writing tests first to drive design and ensure quality, with a focus on behavior specification and acceptance criteria.
+      icon: i-lucide-check-circle-2
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: AWS Cloud & DevOps
+      description: Strong AWS cloud experience with a focus on cost efficiency. CI/CD pipelines, Infrastructure as Code with AWS CDK and OpenTofu, automation, containerization, serverless architectures, and Site Reliability Engineering (SRE) practices.
+      icon: i-lucide-cloud
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+experience:
+  title: Professional [Experience]{.text-primary}
+  description: 'Building and leading technical initiatives with a focus on sustainable architecture, cost efficiency, and business-driven development.'
+  items:
+    - title: Software Engineer
+      description: 'Currently working as a Software Engineer at the largest energy retailer in the Netherlands. Leading cloud infrastructure initiatives on AWS with a strong focus on cost efficiency. Implementing CI/CD pipelines, infrastructure automation with AWS CDK and OpenTofu, and ensuring systems remain scalable and maintainable as the business grows.'
+      image:
+        light: '/images/light/connect.svg'
+        dark: '/images/dark/connect.svg'
+    - title: Software Architect
+      description: 'Designing and implementing event-driven architectures using CQRS, event sourcing, and domain-driven design. Creating systems that evolve without entropy through clean architecture, hexagonal design, and thin application layers. Ensuring all architectural decisions are business-driven while leveraging data for insights.'
+      image:
+        light: '/images/light/optimize.svg'
+        dark: '/images/dark/optimize.svg'
+    - title: Technical Leadership
+      description: 'Leading teams in adopting TDD, BDD, SOLID principles, and clean code practices. Building systems that are testable, maintainable, and scalable. Focusing on automation, continuous improvement, and ensuring software continues to evolve without collapsing under complexity.'
+      image:
+        light: '/images/light/track.svg'
+        dark: '/images/dark/track.svg'
+projects:
+  title: Featured [Projects & Initiatives]{.text-primary}
+  description: 'Projects that demonstrate my approach to building systems that evolve gracefully, leveraging event-driven architecture, clean design, and cost-efficient cloud solutions.'
+  items:
+    - title: Event-Driven Platform with Hexagonal Architecture
+      description: 'Designed and implemented an event-driven microservices platform for energy retail operations using CQRS and Event Sourcing, built on hexagonal architecture (ports & adapters) with a thin application layer. The system processes millions of events daily with high reliability and low latency. The framework enforces clean boundaries between business logic and infrastructure, making systems highly testable and maintainable. Used TDD and BDD throughout development, ensuring the system continues to evolve without entropy as business requirements change.'
+      technologies: 'Event Sourcing, CQRS, Domain-Driven Design, Hexagonal Architecture, AWS, OpenTofu, TypeScript, Apache Kafka, TDD, BDD, SOLID Principles'
+      image:
+        light: '/images/light/connect.svg'
+        dark: '/images/dark/connect.svg'
+    - title: Cost-Optimized AWS Infrastructure
+      description: 'Led the design and implementation of a cost-efficient cloud infrastructure on AWS, reducing operational costs by over 40% while improving scalability and reliability. Implemented Infrastructure as Code with AWS CDK and OpenTofu, automated scaling, and serverless architectures where appropriate. The system maintains high performance while keeping costs predictable and manageable.'
+      technologies: 'AWS, AWS CDK, OpenTofu, Serverless, CI/CD, Cost Optimization, Infrastructure as Code'
+      image:
+        light: '/images/light/track.svg'
+        dark: '/images/dark/track.svg'
+    - title: Arts and Crafts [open source]{.text-primary .italic}
+      description: 'Open source: "Arts and Crafts" packages for consistent, modular coding across languages, enabling robust, scalable, and testable codebases. Supports Event-Driven Architecture, Domain-Driven Design, CQRS, Vertical Slices, Event Sourcing, and various testing approaches (e.g., Fakes, Scenario Testing).'
+      technologies: 'TypeScript, Rust, Event-Driven Architecture, Domain-Driven Design, CQRS, Event Sourcing, Open Source'
+      image:
+        light: '/images/light/optimize.svg'
+        dark: '/images/dark/optimize.svg'
+      links:
+        - label: 'TypeScript - GitHub'
+          to: 'https://github.com/arts-n-crafts/typescript'
+          target: '_blank'
+        - label: 'TypeScript - NPM'
+          to: 'https://www.npmjs.com/package/@arts-n-crafts/ts'
+          target: '_blank'
+        - label: 'Rust - GitHub'
+          to: 'https://github.com/arts-n-crafts/rust'
+          target: '_blank'
+        - label: 'Rust - Crates.io'
+          to: 'https://crates.io/crates/arts-n-crafts'
+          target: '_blank'
+cta:
+  title: Let's [Build Something Great]{.text-primary}
+  description: "Interested in building software that evolves without entropy? Looking for a software architect who combines event-driven architecture, clean design, and cost-efficient cloud solutions? Let's discuss how we can create systems that grow with your business."
+  links:
+    - label: Get in Touch
+      to: 'mailto:jens@invictus.codes'
+      trailingIcon: i-lucide-mail
+      variant: 'solid'
+      color: 'primary'
+    - label: Connect on LinkedIn
+      to: 'https://www.linkedin.com/in/jvhellemondt/'
+      target: '_blank'
+      variant: 'outline'
+      icon: i-simple-icons-linkedin
