@@ -7,8 +7,6 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
 
-  ssr: false,
-
   devtools: {
     enabled: true
   },
